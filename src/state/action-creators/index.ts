@@ -4,7 +4,7 @@ import { Dispatch } from "redux";
 import { Action } from "../actions";
 
 
-export const serchRepositories = (term: string) => {
+export const searchRepositories = (term: string) => {
     return async (dispatch: Dispatch<Action>) => {
         dispatch({ type: ActionType.SEARCH_REPOSITORIES });
         try {
